@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CrawlerEngine.dir/crawler.c.o"
+  "CMakeFiles/CrawlerEngine.dir/link_tree.c.o"
   "CMakeFiles/CrawlerEngine.dir/main.c.o"
   "CrawlerEngine"
   "CrawlerEngine.pdb"

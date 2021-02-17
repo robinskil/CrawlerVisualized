@@ -143,6 +143,60 @@ CrawlerEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrawlerEngine.dir/build.make CMakeFiles/CrawlerEngine.dir/build
 .PHONY : CrawlerEngine/fast
 
+crawler.o: crawler.c.o
+
+.PHONY : crawler.o
+
+# target to build an object file
+crawler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrawlerEngine.dir/build.make CMakeFiles/CrawlerEngine.dir/crawler.c.o
+.PHONY : crawler.c.o
+
+crawler.i: crawler.c.i
+
+.PHONY : crawler.i
+
+# target to preprocess a source file
+crawler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrawlerEngine.dir/build.make CMakeFiles/CrawlerEngine.dir/crawler.c.i
+.PHONY : crawler.c.i
+
+crawler.s: crawler.c.s
+
+.PHONY : crawler.s
+
+# target to generate assembly for a file
+crawler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrawlerEngine.dir/build.make CMakeFiles/CrawlerEngine.dir/crawler.c.s
+.PHONY : crawler.c.s
+
+link_tree.o: link_tree.c.o
+
+.PHONY : link_tree.o
+
+# target to build an object file
+link_tree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrawlerEngine.dir/build.make CMakeFiles/CrawlerEngine.dir/link_tree.c.o
+.PHONY : link_tree.c.o
+
+link_tree.i: link_tree.c.i
+
+.PHONY : link_tree.i
+
+# target to preprocess a source file
+link_tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrawlerEngine.dir/build.make CMakeFiles/CrawlerEngine.dir/link_tree.c.i
+.PHONY : link_tree.c.i
+
+link_tree.s: link_tree.c.s
+
+.PHONY : link_tree.s
+
+# target to generate assembly for a file
+link_tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrawlerEngine.dir/build.make CMakeFiles/CrawlerEngine.dir/link_tree.c.s
+.PHONY : link_tree.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CrawlerEngine"
+	@echo "... crawler.o"
+	@echo "... crawler.i"
+	@echo "... crawler.s"
+	@echo "... link_tree.o"
+	@echo "... link_tree.i"
+	@echo "... link_tree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

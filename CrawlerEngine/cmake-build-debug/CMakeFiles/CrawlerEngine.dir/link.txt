@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/CrawlerEngine.dir/main.c.o  -o CrawlerEngine 
+/usr/bin/cc  -Wall -fexceptions -g -g   CMakeFiles/CrawlerEngine.dir/main.c.o CMakeFiles/CrawlerEngine.dir/crawler.c.o CMakeFiles/CrawlerEngine.dir/link_tree.c.o  -o CrawlerEngine  -lcurl /usr/lib/x86_64-linux-gnu/libxml2.so 

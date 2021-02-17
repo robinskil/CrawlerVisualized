@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine"/>
+					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
@@ -63,6 +65,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine"/>
+					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
@@ -76,6 +80,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine/crawler.c">
+			<Option target="CrawlerEngine"/>
+		</Unit>
+		<Unit filename="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine/crawler.h">
+			<Option target="CrawlerEngine"/>
+		</Unit>
+		<Unit filename="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine/crawler_settings.h">
+			<Option target="CrawlerEngine"/>
+		</Unit>
+		<Unit filename="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine/link_tree.c">
+			<Option target="CrawlerEngine"/>
+		</Unit>
+		<Unit filename="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine/link_tree.h">
+			<Option target="CrawlerEngine"/>
+		</Unit>
 		<Unit filename="/home/robin/Documents/Git/CrawlerVisualized/CrawlerEngine/main.c">
 			<Option target="CrawlerEngine"/>
 		</Unit>
